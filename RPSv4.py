@@ -13,6 +13,8 @@ while True:
         print('\nHUMAN: what element do you choose?')
         p1 = input()
         p1 = p1.lower()
+        if p1 =='quit' or p1 == 'q':
+            break
 
         print(f'\n\nComputer selects: {computer.upper()}\n')
 
